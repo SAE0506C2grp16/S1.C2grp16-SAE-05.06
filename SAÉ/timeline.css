@@ -4,10 +4,11 @@ The HTML and CSS styling for the timeline are based on a blog post published by 
 I want to thank Jake Rochelau for making this tutorial available, as it has taught me a lot about the potential of CSS, and introduced me to some new techniques.
 
 */
-body { background: #000000;
-       font-family:Georgia;}
 
-img {boder: 0; max-width:50%;}
+body {
+  background: linear-gradient(to bottom, rgba(100,159,219,255), purple);}
+
+img {boder: 0; max-width:50%; float:left; display: block; margin-left: auto; margin-right: auto }
 
 .page-header {
   text-align: center;
@@ -17,6 +18,8 @@ img {boder: 0; max-width:50%;}
 
 h1 {
   font-size: 4em;
+  text-align: center;
+  text-shadow: 3px 3px 5px black;
 }
 
 /** timeline box structure **/
@@ -46,7 +49,7 @@ h1 {
   background: rgba(116,168,218,255);
   border: 3px solid #015249;
   color: #ededed;
-  margin: 0 auto;
+  margin: 0 auto;    resize: both;
   padding: 3px 0;
   font-weight: bold;
   text-align: center;
@@ -74,7 +77,22 @@ h1 {
 .timeline li .timeline-panel {
   width: 46%;
   float: left;
-  background: rgba(140,168,218,255);
+  background: rgba(100,159,219,255);
+  border: 1px solid rgba(140,168,218,255);
+  padding: 20px;
+  position: relative;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 6px rgba(140,168,218,255);
+  -moz-box-shadow: 0 1px 6px rgba(140,168,218,255);
+  box-shadow: 0 1px 6px rgba(140,168,218,255);
+}
+
+.timeline li .timeline-panel2 {
+  width: 46%;
+  float: left;
+  background: #003388;
   border: 1px solid rgba(140,168,218,255);
   padding: 20px;
   position: relative;
@@ -87,12 +105,31 @@ h1 {
 }
 
 /** timeline circle icons **/
-.timeline li .tl-circ {
+.timeline li .tl-circ1 {
   position: absolute;
   top: 23px;
   left: 50%;
   text-align: center;
   background: #57bc90;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin-left: -16px;
+  border: 3px solid #015249;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  z-index: 99999;
+}
+
+.timeline li .tl-circ2 {
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  text-align: center;
+  background: purple;
   color: #fff;
   width: 35px;
   height: 35px;
@@ -158,6 +195,10 @@ h1 {
   float: right;
 }
 
+.timeline li.timeline-inverted2 .timeline-panel2 {
+  float: right;
+}
+
 .timeline li.timeline-inverted .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
@@ -172,20 +213,17 @@ h1 {
   right: auto;
 }
 .image-box {
-  height: 70%;
-  width: 70%;
+  height: 80%;
+  width: 100%;
   margin: 0 auto;
-  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  resize: both;
   overflow: auto;
 }
 
 .main-image {
   border-radius: 10px;
-  border: 3px solid white;
 }
 
 /** media queries **/
@@ -246,6 +284,7 @@ h1 {
   }
   .main-image {
     min-width: 200px;
+  }
   }
   .page-header {
     text-align: left;
