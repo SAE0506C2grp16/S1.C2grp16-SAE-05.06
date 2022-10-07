@@ -1,0 +1,87 @@
+*{
+    font-family: century;
+}
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(orion-nebula-g897e7cae9_1920.jpg);
+}
+img{
+  display: flex;
+  margin-right: 1200px;
+  margin-top: -10px;
+  width: 120px;
+  height: 40px;
+  position: sticky;
+  left: 10px;
+}
+
+ul{
+  list-style: none;
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.navigation a{
+  text-decoration: none;
+  color: #FFF;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  margin: 100px;
+  transition: 0.6s ease;
+}
+.navigation a:hover{
+  background: #FFF;
+  color: #000;
+}
+.navigation .active a{
+  background: #FFF;
+  color: #000;
+}
+
+.titre{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.titre h1{
+  color: #FFF;
+  font-size: 70px;
+}
+
+.bouton a{
+  color: #FFF;
+  text-decoration: none;
+  border: 1px solid #FFF;
+  padding: 12px 35px;
+
+}
+
+.btn1{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+  transition: 0.6s ease;
+
+}
+.btn2{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    display: flex;
+  transition: 0.6s ease;
+
+}
+.btn1:hover{
+  background-color: #FFF;
+  color: #000;
+}
+.btn2:hover{
+    background-color: #FFF;
+    color: #000;
+  }
+
+
