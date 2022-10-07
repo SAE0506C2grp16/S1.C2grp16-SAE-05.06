@@ -15,3 +15,4 @@ Zoning du site :
 
 
 Page d'accueil :
+![CapturePageAcceuil](https://user-images.githubusercontent.com/114138490/194503164-1ad4dadb-9143-4153-a149-89fec39cd1fa.png)
