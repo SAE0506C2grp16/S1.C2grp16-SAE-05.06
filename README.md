@@ -12,3 +12,6 @@ Etudiant 4 : HALLOUMI Idris (mailto:ihalloum@edu.univ-fcomte.fr?subject=SAE_1_05
 
 Zoning du site :
 ![Zoning_définitif](https://user-images.githubusercontent.com/114138490/194487267-52740109-1f00-41c3-b54c-33153e1ac4a8.png)
+
+
+Page d'accueil :
