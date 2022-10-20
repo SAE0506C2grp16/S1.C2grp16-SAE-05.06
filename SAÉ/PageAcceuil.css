@@ -1,0 +1,164 @@
+*{
+    font-family: century;
+}
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(orion-nebula-g897e7cae9_1920.jpg);
+}
+img{
+  display: flex;
+  margin-right: -1820px;
+  margin-top: -10px;
+  width: 120px;
+  height: 40px;
+  position: sticky;
+  left: 10px;
+}
+
+ul{
+  list-style: none;
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 800px;
+}
+.navigation a{
+  text-decoration: none;
+  color: #FFF;
+  padding: 14px 05px; /* Epaisseur du blanc sur la barre  et espace entre les catégorie*/
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  margin: 100px;
+  transition: 0.6s ease;
+}
+.navigation a:hover{
+  background: #FFF;
+  color: #000;
+}
+.navigation .active a{
+  background: #FFF;
+  color: #000;
+}
+
+.navigation .logow{
+  margin-left: 600px;
+
+}
+
+.titre{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.titre h1{
+  color: #FFF;
+  font-size: 70px;
+}
+
+.bouton a{
+  color: #FFF;
+  text-decoration: none;
+  border: 1px solid #FFF;
+  padding: 12px 35px;
+
+}
+
+.btn1{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+  transition: 0.6s ease;
+
+}
+.btn2{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    display: flex;
+  transition: 0.6s ease;
+
+}
+.btn1:hover{
+  background-color: #FFF;
+  color: #000;
+}
+.btn2:hover{
+    background-color: #FFF;
+    color: #000;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  body{
+  	line-height: 1.5;
+  	font-family: 'Poppins', sans-serif;
+  }
+
+  *{
+  	margin:0;
+  	padding:0;
+  	box-sizing: border-box;
+  }
+
+  .container{
+  	max-width: 1400px;
+  	margin:auto;
+  }
+
+  .row{
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+
+  ul{
+  	list-style: none;
+  }
+
+.footer{
+	  background-color: #24262b;
+    padding: 50px 0;
+    margin-top: 50%;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+
+}
+
+.footer-col p{
+  color: #FFFFFF;
+
+}
+
+.footer-col a{
+  color: #FFFFFF;
+}
+
+
+.footer-col h4{
+	font-size: 18px;
+  color : #FFF;
+  text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col .social-links a{
+  margin-right: 5% ;
+}

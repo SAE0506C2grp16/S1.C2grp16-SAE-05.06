@@ -1,0 +1,234 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(orion-nebula-g897e7cae9_1920.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+}
+.logo{
+  display: flex;
+  margin-right: -1820px;
+  margin-top: -10px;
+  width: 120px;
+  height: 40px;
+  left: 10px;
+}
+.navigation .logo{
+  margin-left: 600px;
+}
+ul{
+  list-style: none;
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 800px;
+}
+.navigation a{
+  text-decoration: none;
+  color: #FFF;
+  padding: 14px 05px; /* Epaisseur du blanc sur la barre  et espace entre les catégorie*/
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  margin: 100px;
+  transition: 0.6s ease;
+}
+.navigation a:hover{
+  background: #FFF;
+  color: #000;
+}
+.navigation .active a{
+  background: #FFF;
+  color: #000;
+}
+
+
+
+
+
+
+.container{
+  position: absolute;
+  top : 80px;
+  width: 100%;
+}
+
+.container2{
+  margin: 2%;
+  display: flex;
+}
+
+.liste{
+  background-image: url("fondblanc.jpg");
+  text-align: center;
+  border-radius: 30px;
+  background-color: white;
+  margin: 3%;
+  margin-bottom: 30%;
+  padding: 2%;
+}
+.liste a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  transition: 0.6s ease;
+}
+
+.liste a:hover{
+  background: grey;
+  color: white;
+}
+.liste .active2 a{
+  background: grey;
+  color: white;
+}
+
+.exemples{
+  border-radius: 30px;
+  background-image: url("fondblanc.jpg");
+  margin: 3%;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.exp1{
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  padding-left: 2%;
+  border-radius: 30px;
+  display: flex;
+  background-color: grey;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.text1{
+  color: white;
+  padding: 1%;
+  position: relative;
+}
+
+.image1{
+  float: right;
+  width: 130px;
+}
+
+.exp2{
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 30px;
+  display: flex;
+  background-color: grey;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.text2{
+  color: white;
+  padding: 1%;
+  position: relative;
+}
+
+.image2{
+  float: right;
+  width: 130px;
+}
+
+.exp3{
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  padding-left: 2%;
+  border-radius: 30px;
+  display: flex;
+  background-color: grey;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.text3{
+  color: white;
+  padding: 1%;
+  position: relative;
+}
+
+.image3{
+  float: right;
+  width: 130px;
+}
+
+
+
+
+body{
+      line-height: 1.5;
+      font-family: 'Poppins', sans-serif;
+  }
+
+
+
+  .containerf{
+      max-width: 1400px;
+      margin:auto;
+  }
+
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  ul{
+      list-style: none;
+  }
+
+.footer{
+      background-color: #24262b;
+    padding: 50px 0;
+    margin-top: 50%;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+
+}
+
+.footer-col p{
+  color: #FFFFFF;
+
+}
+
+.footer-col a{
+  color: #FFFFFF;
+}
+
+
+.footer-col h4{
+    font-size: 18px;
+  color : #FFF;
+  text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col .social-links a{
+  margin-right: 5% ;
+}
