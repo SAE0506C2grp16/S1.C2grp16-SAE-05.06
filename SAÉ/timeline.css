@@ -385,6 +385,19 @@ date
   background: #FFF;
   color: #000;
 }
+img{
+  display: flex;
+  margin-right: -1820px;
+  margin-top: -10px;
+  width: 120px;
+  height: 40px;
+  position: sticky;
+  left: 10px;
+}
+.navigation .logow{
+  margin-left: 600px;
+
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
